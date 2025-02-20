@@ -1,11 +1,2 @@
-# Class notes
+# Deep Learning
 
-
-
-
-
-# Semana 1
-
-
-
-# Miercoles
