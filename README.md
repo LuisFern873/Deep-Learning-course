@@ -113,11 +113,13 @@ for A, B in dataloader:
 
 # iBOT 🤖
 
+
+<img src="./images/iBOT.png"/>
+
 iBOT minimizes the following two losses:
 
-$\mathcal{L}_{[\text{CLS}]} = - P_{\theta'}^{[\text{CLS}]}(\boldsymbol{v})^\top \log P_{\theta}^{[\text{CLS}]}(\boldsymbol{u})$
+<img src="./images/losses.png" width="350"/>
 
-$\mathcal{L}_{\text{MIM}} = - \sum_{i=1}^{N} m_i \cdot P_{\theta'}^{\text{patch}}(\boldsymbol{u}_i)^\top \log P_{\theta}^{\text{patch}}(\hat{\boldsymbol{u}}_i)$
 
 <img src="./images/iBOT1.png"/>
 <img src="./images/iBOT2.png"/>
